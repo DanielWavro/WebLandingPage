@@ -10,8 +10,12 @@ header{
     padding-top: 60px;
 }
 
+body{
+    margin:0;
+}
+
 main{
-    padding: 80px;
+    /* padding: 80px; */
     padding-top: 0px;
 }
 
@@ -28,6 +32,7 @@ h1{
     color: #F9FAF8;
     font-weight: bold;
     font-family: 'Poppins', sans-serif;
+    
 }
 
 h2{
@@ -43,6 +48,15 @@ h3{
     color:#1F2937;
     text-align: center;
     font-family: 'Poppins', sans-serif;
+}
+
+h4{
+    margin-top: 0px;
+    font-size: 32px;
+    color: #F9FAF8;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    color:#1F2937;
 }
 
 p, .linka{
@@ -142,18 +156,100 @@ button:active{
 }
 /* End  */
 
-/* Flex for text under images */
-
-.bottom--text{
-    display: flex;
-    justify-content: center;
-  
+.container3{
+    margin-bottom: 100px;
+    margin-top:40px;
 }
 
+/* Flex for text under images */
+
 .desc{
-    flex:1;
+    overflow-wrap: break-word;
     max-width: 200px;
+    text-align: center;
+   
+}
+
+/* Gray section */
+
+.quote{
+    
+    font-size: 36px;
+    font-style: italic;
+    color:#1F2937;
+    padding: 80px;
+    margin-left: auto;
+    margin-right: 0;
+    padding-bottom:0px;
+}
+
+.gray{
+    background-color: #ebebeb;
+    padding: 40px;  
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+
+h4{
+    text-align: right;
+    margin-right: 100px;
     
 }
 
+/* end */
 
+/* Blue signup */
+
+.blue{
+    display:flex;
+    margin: 100px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    
+}
+
+.blue--content{
+    flex:1;
+    padding: 20px;
+}
+
+.blue--button{
+    flex: 1;
+    
+    
+}
+
+.noswag, .swag{
+    padding-left: 40px;
+}
+
+.noswag{
+    margin-bottom:0px;
+}
+
+.swag{
+    margin-top: 0;
+}
+
+.inverse{
+    border: solid 1px white;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    display: block;
+}
+
+/* end blue content */
+
+/* Footer */
+
+footer{
+    background-color: #1F2937;
+}
+
+.footy{
+    padding: 25px;
+    text-align: center;
+    margin-bottom: 0px;
+}
